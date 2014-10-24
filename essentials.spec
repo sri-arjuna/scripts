@@ -4,11 +4,12 @@ Release:        0%{?dist}
 Summary:        Essential scripts for lazy things
 
 License:        GPLv3
-URL:            https://github.com/sri-arjuna/%{name}
+URL:            https://github.com/sri-arjuna/scripts
 Source0:        %{name}-%{version}.tar.gz
 
 Requires:       tui
-
+Requires:       ImageMagick
+Requires:       systemd-analyze
 
 %description
 backup-config
